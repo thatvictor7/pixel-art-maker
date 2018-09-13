@@ -1,0 +1,112 @@
+.rowDivs {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}
+
+div {
+  border: solid black 0px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.each {
+  height: 1em;
+  width: 1em;
+  margin: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-color: rgb(28, 26, 26);
+  background-image: url('https://pro2-bar-s3-cdn-cf2.myportfolio.com/604606727f395385f58df17b5a5ecdaa/3f7e42f8f2e9e7101dd37125_rw_1920.jpg?h=953b912e1d4039dd87f3f9760430299d');
+  background-position: center;
+  background-position: top;
+}
+
+.title {
+  margin-left: 43%;
+  color: white;
+}
+
+.selector {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  width: 50%;
+  margin-top: 2em;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.color-selector {
+  margin: 3px;
+  background-color: white;
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+#widthText, #heightText {
+  margin: 1em;
+  color: white;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.brown {
+  background-color: brown;
+}
+.skin {
+  background-color: rgb(242,206,187);
+  }
+.skin-shadow {
+  background-color: rgb(222,155,132)
+  }
+.light-blue {
+  background-color: rgb(155,199,205)
+}
